@@ -11,3 +11,9 @@ div = document.createElement('h3');
 div.style.color = 'blue';
 div.textContent = 'I\'m a blue h3!';
 container.appendChild(div);
+
+/* a <div> with a black border and pink background color */
+div = document.createElement('div');
+div.style.border = 'thick solid black';
+div.style.backgroundColor = 'pink';
+container.appendChild(div);
