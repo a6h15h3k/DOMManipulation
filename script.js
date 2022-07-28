@@ -24,3 +24,8 @@ container = div;
 div = document.createElement('h1');
 div.textContent = 'I\'m in a div';
 container.appendChild(div);
+
+/* a <p> that says “ME TOO!” */
+div = document.createElement('p');
+div.textContent = 'ME TOO!';
+container.appendChild(div);
