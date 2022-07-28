@@ -17,3 +17,10 @@ div = document.createElement('div');
 div.style.border = 'thick solid black';
 div.style.backgroundColor = 'pink';
 container.appendChild(div);
+
+container = div;
+
+/* inside of it: another <h1> that says “I’m in a div” */
+div = document.createElement('h1');
+div.textContent = 'I\'m in a div';
+container.appendChild(div);
